@@ -1,0 +1,36 @@
+.touchcolor {
+    color: green;
+}
+
+.normalkbbtn {
+    width: 20%;
+}
+
+.bkspc {
+    height: 38%;
+    width: 40%;
+    margin-right: 20%;
+    font-size: 20;
+}
+
+.clearall {
+    height: 38%;
+    width: 50%;
+    font-size: 20;
+}
+
+.clearrow {
+    margin-top: 2%;
+}
+
+.operators {
+    width: 20%;
+}
+
+.operatorsrow {
+    margin-top: 4%;
+}
+
+.equaltobtn {
+    width: 40%;
+}

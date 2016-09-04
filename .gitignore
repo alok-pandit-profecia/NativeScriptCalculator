@@ -1,2 +1,46 @@
+# Created by https://www.gitignore.io/api/windows,visualstudiocode,typings
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+
+### Typings ###
+## Ignore downloaded typings
+typings
+
+#Platforms & Node Modules Folders
+platforms
+node_modules
+hooks
+
+
+#js & js.map
+*.js
+*.js.map
+
 .sass-cache/
 *.css.map

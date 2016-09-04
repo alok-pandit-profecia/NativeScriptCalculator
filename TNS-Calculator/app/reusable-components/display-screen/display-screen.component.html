@@ -1,0 +1,6 @@
+<StackLayout class="dscreen" #dscreen>
+    <Label text={{result}}></Label>
+</StackLayout>
+<StackLayout class="keyboardArea">
+    <normal-keyboard [_result]="result" (numbertap)="numberTapped($event)"></normal-keyboard>
+</StackLayout>

@@ -1,0 +1,31 @@
+<StackLayout orientation="vertical">
+    <StackLayout orientation="horizontal">
+        <Button text="1" (tap)="onTap('1')" [class.touchcolor]="_isClicked[1]" class="normalkbbtn"></Button>
+        <Button text="2" (tap)="onTap('2')" [class.touchcolor]="_isClicked[2]" class="normalkbbtn"></Button>
+        <Button text="3" (tap)="onTap('3')" [class.touchcolor]="_isClicked[3]" class="normalkbbtn"></Button>
+        <Button text="4" (tap)="onTap('4')" [class.touchcolor]="_isClicked[4]" class="normalkbbtn"></Button>
+        <Button text="5" (tap)="onTap('5')" [class.touchcolor]="_isClicked[5]" class="normalkbbtn"></Button>
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+        <Button text="6" (tap)="onTap('6')" [class.touchcolor]="_isClicked[6]" class="normalkbbtn"></Button>
+        <Button text="7" (tap)="onTap('7')" [class.touchcolor]="_isClicked[7]" class="normalkbbtn"></Button>
+        <Button text="8" (tap)="onTap('8')" [class.touchcolor]="_isClicked[8]" class="normalkbbtn"></Button>
+        <Button text="9" (tap)="onTap('9')" [class.touchcolor]="_isClicked[9]" class="normalkbbtn"></Button>
+        <Button text="0" (tap)="onTap('0')" [class.touchcolor]="_isClicked[0]" class="normalkbbtn"></Button>
+    </StackLayout>
+    <StackLayout orientation="horizontal" class="clearrow">
+        <Button text="BackSpace" (tap)="bkSpc(11)" [class.touchcolor]="_isClicked[11]" class="bkspc"></Button>
+        <Button text="Clear All" (tap)="bkSpc(12)" [class.touchcolor]="_isClicked[12]" class="clearall"></Button>
+    </StackLayout>
+    <StackLayout orientation="horizontal" class="operatorsrow">
+        <Button text="+" (tap)="operatorTap(13, '+')" [class.touchcolor]="_isClicked[13]" class="operators"></Button>
+        <Button text="-" (tap)="operatorTap(14, '-')" [class.touchcolor]="_isClicked[14]" class="operators"></Button>
+        <Button text="/" (tap)="operatorTap(15, '/')" [class.touchcolor]="_isClicked[15]" class="operators"></Button>
+        <Button text="%" (tap)="operatorTap(16, '%')" [class.touchcolor]="_isClicked[16]" class="operators"></Button>
+        <Button text="*" (tap)="operatorTap(17, '*')" [class.touchcolor]="_isClicked[17]" class="operators"></Button>
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+        <Button text="." (tap)="operatorTap(18, '.')" [class.touchcolor]="_isClicked[18]" class="equaltobtn"></Button>
+        <Button text="=" (tap)="operatorTap(19, '=')" [class.touchcolor]="_isClicked[19]" class="equaltobtn"></Button>
+    </StackLayout>
+</StackLayout>
